@@ -1,0 +1,14 @@
+.DateEntryField{
+    margin-left: 20%;
+}
+.DateTitle{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-weight: 400;
+}
+.DateFieldFooter{
+    font-weight: 200;
+    text-align: center;
+    color: gray;
+    margin-bottom: 10%;
+}

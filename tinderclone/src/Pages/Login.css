@@ -1,0 +1,39 @@
+.Paper{
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 20vh;
+padding-bottom: 39vh;
+overflow: hidden;
+    color:#FF5864;
+align-items: center;
+background:linear-gradient(169deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 48%, rgba(255,101,91,1) 100%);}
+.FormLogin{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    gap: 15px;
+}
+.Submit{
+    padding: 50px;
+}
+.Enter{
+   padding-top: 5vh;
+   padding-bottom:7vh;
+   margin: auto;
+   max-height: 500px;
+   max-width: 500px;
+}
+.sign{
+    text-decoration: none;
+}
+.logo{
+    max-width:130px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding-bottom: 0px;
+}
+.title{
+    padding-top:0 ;
+    margin-top: 0;
+}

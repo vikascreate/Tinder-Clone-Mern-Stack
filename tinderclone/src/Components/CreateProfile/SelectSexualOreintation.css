@@ -1,0 +1,31 @@
+.ListPlacing{
+    margin-left: 7%;
+    margin-right: 8%;
+
+}
+.navoreint{
+    display: flex;
+    gap:75%
+}
+.Skip{
+    margin-right:5% ;
+    font-weight: 700;
+    color: grey;
+}
+.TitleSelectGender{
+    font-weight: 500;
+    margin-left: 7%;
+    font-size: 6vw;
+}
+.selectupto{
+    margin-left: 7%;
+    color: grey;
+    font-weight: 300;
+}
+.OreintationFooter{
+    color: gray;
+    font-weight: 200;
+}
+.OreintationContainer{
+    height: 120vh;
+}

@@ -1,0 +1,19 @@
+.SetGenderButtonG{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.GenderTitle{
+    font-weight: 400;
+    margin-left: 9%;
+    margin-bottom: 10%;
+}
+.ShowMyGenderG{
+    display: flex;
+    margin-left: 20%;
+}
+.GenderContainer{
+    height: 100vh;
+}

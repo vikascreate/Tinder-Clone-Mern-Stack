@@ -1,0 +1,19 @@
+.DialogQuestion{
+    margin: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 300;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.EnterName{
+    margin-left: 10%;
+    margin-top: 0;
+    font-weight: 400;
+}
+.nameField{
+    margin-left: 10%;
+    margin-right: 10%;
+}

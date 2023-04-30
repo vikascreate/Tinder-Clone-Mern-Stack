@@ -12,10 +12,12 @@ function Sign(props) {
     const handleSubmit =(event) =>{
         event.preventDefault();
         fetch()
-        async function fetch(){await axios.post('/user/register',{
-                email:email,
-                password:password
-            })}
+        async function fetch(){
+            // await axios.post('/user/register',{
+            //     email:email,
+            //     password:password
+            // })
+        }
         setAuth(true)
     }
     return (

@@ -34,16 +34,7 @@ function ProfileC() {
     }
     window.addEventListener('resize', handleResize)
    },[])
-    function traveltoEdit(){
-        setTimeout(()=>{
-        setEdit((old)=> !old)
-        },  300)
-    }
-    function traveltoSettings(){
-        setTimeout(()=>{
-        setSettings((old)=> !old)
-        },  300)
-    }
+    
     function handleGenderMoreClick(){
         setOpenMore(true)
         setselectedGender(3)

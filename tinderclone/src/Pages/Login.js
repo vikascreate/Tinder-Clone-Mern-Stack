@@ -28,24 +28,26 @@ function Login(props) {
     const handleSubmit=(event)=>{
         event.preventDefault();
         if(email.length>0&&password.length>0)
-        {fetchData()}
-        async function fetchData(){
-            const req=await axios.post('/user/logged',{
-                email:email,
-                password:password
-            })
-            if(await req.data.user){
-                localStorage.setItem('tinderuser',req.data.user)
-                setAuth(true)
-            }else{
-               if(req.data.message==='Incorrect Email'){
-                setCorrectMail(false)
-               }else if(req.data.message==='Incorrect Password'){
-                setCorrectMail(true)
-                setCorrectPassword(false)
-               }
-            }
-        }
+        // {fetchData()}
+        // async function fetchData(){
+        //     const req=await axios.post('/user/logged',{
+        //         email:email,
+        //         password:password
+        //     })
+        //     if(await req.data.user){
+        //         localStorage.setItem('tinderuser',req.data.user)
+        //         setAuth(true)
+        //     }else{
+        //        if(req.data.message==='Incorrect Email'){
+        //         setCorrectMail(false)
+        //        }else if(req.data.message==='Incorrect Password'){
+        //         setCorrectMail(true)
+        //         setCorrectPassword(false)
+        //        }
+        //     }
+        // }
+        localStorage.setItem('tinderuser','tokena')
+        setAuth(true)
             
     }
     function handleClose(){
@@ -84,7 +86,7 @@ function Login(props) {
                 onChange={(e)=>{setPassword(e.target.value)}} variant="outlined"></TextField>:
                 <TextField required type="password" error label='Passsword' value={password} helperText='Incorrect Password' 
                 onChange={(e)=>{setPassword(e.target.value)}} variant="outlined"></TextField>}
-                <Button variant='contained' className='Submit' type='submit'>Submit</Button>
+                <Button variant='contained' className='Submit' onClick={handleSubmit} type='submit'>Submit</Button>
                 <Link to='/signup' className='sign'><Button variant='contained' >Sign Up</Button></Link>
             </form>
                </>
